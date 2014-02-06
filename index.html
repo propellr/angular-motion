@@ -47,7 +47,8 @@
 
 <body ontouchstart="" ng-controller="MainCtrl">
 
-  <!-- ngInclude: 'docs/views/navbar.html' -->
+  <div>
+<!-- ngInclude: 'views/navbar.html' -->
 <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -97,7 +98,10 @@
     </nav>
   </div>
 </header>
-  <!-- ngInclude: 'docs/views/header.html' -->
+<!--/ngInclude: 'views/navbar.html' -->
+</div>
+  <div>
+<!-- ngInclude: 'views/header.html' -->
 <div class="bs-header" id="content">
   <div class="container">
     <div class="col-md-9">
@@ -125,11 +129,14 @@
     </div>
   </div>
 </div>
+<!--/ngInclude: 'views/header.html' -->
+</div>
 
   <div class="container bs-docs-container">
     <div class="row">
       <div class="col-md-3 hidden-sm hidden-xs">
-        <!-- ngInclude: 'docs/views/sidebar.html' -->
+        <div>
+<!-- ngInclude: 'views/sidebar.html' -->
 <div class="bs-sidebar hidden-print" role="complementary" data-offset-top="-80" bs-affix="" bs-scrollspy-list="">
   <ul class="nav bs-sidenav">
     <li>
@@ -173,11 +180,14 @@
     </li>
   </ul>
 </div>
+<!--/ngInclude: 'views/sidebar.html' -->
+</div>
       </div>
       <div class="col-md-9">
         <!-- <div ng-include="'views/sections/getting-started.html'"></div> -->
         <div id="animations">
-          <!-- ngInclude: 'src/fade/docs/fade.demo.html' -->
+          <div>
+<!-- ngInclude: 'fade/docs/fade.demo.html' -->
 <div class="bs-docs-section">
 
   <div class="page-header">
@@ -208,12 +218,15 @@
   <h2 id="fade-usage">Usage</h2>
   <p>Append one of theses classes <code>am-fade</code> to enable theses transitions.</p>
   <div class="callout callout-info">
-    <h4>AnuglarStrap integration</h4>
+    <h4>AngularStrap integration</h4>
     <p>You should use the <code>data-animation</code> attribute with AngularStrap.</p>
   </div>
 
 </div>
-          <!-- ngInclude: 'src/slide/docs/slide.demo.html' -->
+<!--/ngInclude: 'fade/docs/fade.demo.html' -->
+</div>
+          <div>
+<!-- ngInclude: 'slide/docs/slide.demo.html' -->
 <div class="bs-docs-section">
 
   <div class="page-header">
@@ -245,12 +258,15 @@
   <h2 id="slide-usage">Usage</h2>
   <p>Append one of theses classes <code>am-slide-top</code>, <code>am-slide-right</code>, <code>am-slide-bottom</code>, <code>am-slide-left</code> to enable theses transitions, </p>
   <div class="callout callout-info">
-    <h4>AnuglarStrap integration</h4>
+    <h4>AngularStrap integration</h4>
     <p>You should use the <code>data-animation</code> attribute with AngularStrap.</p>
   </div>
 
 </div>
-          <!-- ngInclude: 'src/fade-and-slide/docs/fade-and-slide.demo.html' -->
+<!--/ngInclude: 'slide/docs/slide.demo.html' -->
+</div>
+          <div>
+<!-- ngInclude: 'fade-and-slide/docs/fade-and-slide.demo.html' -->
 <div class="bs-docs-section">
 
   <div class="page-header">
@@ -281,12 +297,15 @@
   <h2 id="fade-and-slide-usage">Usage</h2>
   <p>Append one of theses classes <code>am-fade-and-slide-top</code>, <code>am-fade-and-slide-right</code>, <code>am-fade-and-slide-bottom</code>, <code>am-fade-and-slide-left</code> to enable theses transitions.</p>
   <div class="callout callout-info">
-    <h4>AnuglarStrap integration</h4>
+    <h4>AngularStrap integration</h4>
     <p>You should use the <code>data-animation</code> attribute with AngularStrap.</p>
   </div>
 
 </div>
-          <!-- ngInclude: 'src/fade-and-scale/docs/fade-and-scale.demo.html' -->
+<!--/ngInclude: 'fade-and-slide/docs/fade-and-slide.demo.html' -->
+</div>
+          <div>
+<!-- ngInclude: 'fade-and-scale/docs/fade-and-scale.demo.html' -->
 <div class="bs-docs-section">
 
   <div class="page-header">
@@ -311,12 +330,15 @@
   <h2 id="fade-and-scale-usage">Usage</h2>
   <p>Append one of theses classes <code>am-fade-and-scale</code> to enable theses transitions.</p>
   <div class="callout callout-info">
-    <h4>AnuglarStrap integration</h4>
+    <h4>AngularStrap integration</h4>
     <p>You should use the <code>data-animation</code> attribute with AngularStrap.</p>
   </div>
 
 </div>
-          <!-- ngInclude: 'src/flip/docs/flip.demo.html' -->
+<!--/ngInclude: 'fade-and-scale/docs/fade-and-scale.demo.html' -->
+</div>
+          <div>
+<!-- ngInclude: 'flip/docs/flip.demo.html' -->
 <div class="bs-docs-section">
 
   <div class="page-header">
@@ -343,17 +365,20 @@
   <h2 id="flip-usage">Usage</h2>
   <p>Append one of theses classes <code>am-flip-x</code> to enable theses transitions.</p>
   <div class="callout callout-info">
-    <h4>AnuglarStrap integration</h4>
+    <h4>AngularStrap integration</h4>
     <p>You should use the <code>data-animation</code> attribute with AngularStrap.</p>
   </div>
 
+</div>
+<!--/ngInclude: 'flip/docs/flip.demo.html' -->
 </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ngInclude: 'docs/views/footer.html' -->
+  <div>
+<!-- ngInclude: 'views/footer.html' -->
 <footer class="bs-footer">
   <div class="container">
     <p class="pull-right"><a href="#">Back to top</a>
@@ -376,6 +401,8 @@
     </ul>
   </div>
 </footer>
+<!--/ngInclude: 'views/footer.html' -->
+</div>
 
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-sanitize.min.js"></script>
