@@ -1,13 +1,13 @@
 /**
  * angular-motion
- * @version v0.3.4 - 2014-10-14
+ * @version v0.3.4 - 2015-03-19
  * @link https://github.com/mgcrea/angular-motion
  * @author Olivier Louvignes <olivier@mg-crea.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 .am-fade-and-slide-top {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: backwards;
@@ -47,8 +47,8 @@
   animation-play-state: running;
 }
 .am-fade-and-slide-right {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: backwards;
@@ -88,8 +88,8 @@
   animation-play-state: running;
 }
 .am-fade-and-slide-bottom {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: backwards;
@@ -129,8 +129,8 @@
   animation-play-state: running;
 }
 .am-fade-and-slide-left {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: backwards;
